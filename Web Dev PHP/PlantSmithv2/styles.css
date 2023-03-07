@@ -1,0 +1,50 @@
+
+a {
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    padding: 5px;
+    display: block;
+    color: #616161;
+  }
+
+.nav{
+    box-sizing: border-box;
+    overflow: visible;
+    display: block;
+    position: fixed;
+    text-align: center;
+    width: 99%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #E5F0EF;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: solid;
+    font-size: x-large;   
+}
+
+
+.container {
+    display: inline-block;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+}
+
+
+.heading1 {
+    display: inline-block;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    width: 99%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #7B9692;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: solid;
+    font-size: x-large;
+    color: white;
+}
+
+
+
