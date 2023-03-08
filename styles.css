@@ -1,0 +1,137 @@
+html { overflow-x: hidden; }
+
+header { overflow-x: hidden;}
+
+body { overflow-x: hidden;}
+
+a:link { text-decoration: none; color: white; }
+        
+a:visited { text-decoration: none; color: white;}
+
+a:hover { text-decoration: none; color: white;}
+
+a:active { text-decoration: none; color: white;}
+
+button {
+    background-color: rgb(96, 171, 195);
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.nav-menu li {
+    color: white;
+    font-family: "helvetica", sans-serif!important;
+    font-size: 18px;
+    padding-left: 18px;
+}
+
+.trans-header {
+    position: relative; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw; 
+    z-index: 12;
+
+}
+
+body {
+    margin: 0!important;
+    padding: 0!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero {
+    color: white;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-top: -80px;
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url(images/hero.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    vertical-align: middle; 
+    justify-content: center; 
+}
+
+#hero-blur {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* backdrop-filter: blur(2px); */
+    height: 100%;
+    width: 100%;
+} 
+
+#hero-content {
+    position: relative;
+    top: 40%; 
+    display: inline-flex;
+    align-items: left; 
+    justify-content: left; 
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+#h1-hero, #p-hero, #list-hero {
+    align-items: left;
+    text-align: left;
+    display: inline-block;
+    flex: 1;
+  }
+
+.block { 
+    background-color: rgb(96, 171, 195);
+    margin: auto;
+    width: 60%;
+    z-index: 12;
+    margin-top: -50px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.block li {
+    color: white;
+    font-family: "helvetica", sans-serif!important;
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+#block-container{
+    display: flex;
+    list-style-type: none; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.block li {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+  }
+  
+.block li:last-child {
+    border-right: none;
+  }
+
+.center-block {
+    z-index: 3;
+    position: relative;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
