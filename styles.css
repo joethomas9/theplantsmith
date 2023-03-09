@@ -50,6 +50,7 @@ body {
 }
 
 #hero {
+    position: relative;
     color: white;
     z-index: 1;
     display: flex;
@@ -66,9 +67,10 @@ body {
 }
 
 #hero-blur {
+    position: relative;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.2);
-    /* backdrop-filter: blur(2px); */
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
     height: 100%;
     width: 100%;
 } 
@@ -91,6 +93,7 @@ body {
   }
 
 .block { 
+    position: relative;
     background-color: rgb(96, 171, 195);
     margin: auto;
     width: 60%;
@@ -134,4 +137,42 @@ body {
     align-items: center; 
     justify-content: center; 
     flex-direction: column;
+}
+
+.grid-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container div {
+    background-color: rgb(203, 203, 203);
+    padding: 20px;
+}
+
+.grid-container ul {
+    list-style-type: none; 
+    display: flex; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.grid-container li {
+    padding-right: 10px;
+}
+
+.grid-container li:last-child {
+    padding-right: none;
+  }
+
+#floating-tile {
+    flex-direction: column;
+    border-radius: 2px;
+    font-size: 24px;
 }
