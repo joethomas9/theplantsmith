@@ -1,20 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>The PlantSmith - Portfolio</title>
-    </head>
-
-    <header class="trans-header" style="z-index: 100;">
-        <img src="images/logo-white.png" style="display: inline-flex; max-width: 200px; max-height: 70px; padding-left: 15%;">
-        <ul class="nav-menu" style="list-style: none; padding-right: 15%; display: flex; align-items: center;">
+@@ -11,10 +11,64 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="services.html">Services</a></li>
             <li><button>Contact</button></li>
+            <li><button style="background-color: rgb(85, 142, 137);">Contact</button></li>
         </ul>
     </header>
 <body>
     
+    <div class="center-block" style="width: 100vw; height: 100vh; background-color: rgb(95, 171, 165); color: white; margin-top: -80px;">
+        <h1 style="margin-top: -100px; font-size: 68px;">Portfolio</h1>
+        <p style="max-width: 600px;">
+            A quick look into some of our previous projects.
+        </p>
+    </div>
+
+    <div class="grid-container" style="margin-top: -200px;">
+        <ul style="flex-wrap: wrap;">
+            <li>
+                <div id="floating-tile">
+                    <img src="images/design-plan.png" style="max-width: 20vw; border-radius: 2px;">
+                    <p>Portfolio 1</p>
+                </div>
+            </li>
+            <li>
+                <div id="floating-tile">
+                    <img src="images/tree-lawn-care.png" style="max-width: 20vw; border-radius: 2px;">
+                    <p>Portfolio 2</p>
+                </div>
+            </li>
+            <li>
+                <div id="floating-tile">
+                    <img src="images/planting.png" style="max-width: 20vw; border-radius: 2px;">
+                    <p>Portfolio 3</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="grid-container">
+        <ul style="flex-wrap: wrap;">
+            <li>
+                <div id="floating-tile">
+                    <img src="images/garden-maintenance.png" style="max-width: 20vw; border-radius: 2px;">
+                    <p>Portfolio 4</p>
+                </div>
+            </li>
+            <li>
+                <div id="floating-tile">
+                    <img src="images/garden-maintenance.png" style="max-width: 20vw; border-radius: 2px;">
+                    <p>Portfolio 5</p>
+                </div>
+            </li>
+            <li>
+                <div id="floating-tile">
+                    <img src="images/garden-maintenance.png" style="max-width: 20vw; border-radius: 2px;">
+                    <p>Portfolio 6</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <footer class="center-block" style="width: 100vw; height: 50vh; background-color: rgb(64, 144, 137); color: white;">
+        <img src="images/logo-white.png" style="display: inline-flex; max-width: 200px; max-height: 70px;">
+    </footer>
 </body>
 </html>
