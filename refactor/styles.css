@@ -233,10 +233,8 @@ a:active { text-decoration: none; color: #343C37;}
 
 .portfolio-button {
     background-color: transparent;
-    border: 2px solid #343C38;
     color: #343C38;
     font-size: 16px;
-    padding: 10px 20px;
     position: relative;
     transition: all 0.3s ease;
     cursor: pointer;
