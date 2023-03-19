@@ -32,52 +32,80 @@
     </header>
 
 
-    <div class="center-block" style="width: 100vw; height: 70vh; background-color: #BECCC0; border-bottom: 2px solid #343C38;">
+    <div class="center-block" style="width: 100vw; height: 70vh; background-color: #BECCC0;">
         <h1 style="font-size: 68px; padding: 0; margin: 0;">Contact</h1>
-        <p style="max-width: 600px;">
+        <p>
             Fill out the form below to get in contact with us.
         </p>
     </div>
 
-
-    <div>
-        <form class="contact-form">
-            <div class="input-row">
-                <div class="input-group">
-                    <label for="firstname">First Name</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="First Name">
-                </div>
-                <div class="input-group">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
-                </div>
+    <div class="block">
+        <div class="wrapper" style="grid-template-columns: 1.3fr 1.7fr;">
+            <div class="wrapped-block" style="max-width: 1.3fr; border-right: 2px solid #353C38;">
+                <img src="../images/town-courtyard.png" alt="" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <div class="input-row">
-                <div class="input-group">
-                    <label for="email">Email</label>
-                     <input type="text" id="email" name="email" placeholder="Email address">
+
+            <div class="wrapped-block" style="max-width: 1.7fr; padding: 10vw;">
+                <h1>Let's get in touch</h1>
+                <p style="max-width: 95%">
+                    Fill out the form below to send us an email. If you'd rather talk to us, you can call us
+                    on 07813 203464 during our office hours: Mon-Fri, 9am-5pm.
+                </p>
+                <div class="form-container">
+                    <form class="contact-form">
+
+                        <div class="input-row">
+
+                            <div class="input-group">
+                                <label for="firstname">First Name</label>
+                                <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                            </div>
+    
+                            <div class="input-group">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                            </div>
+
+                        </div>
+                        
+                        <div class="input-row">
+
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="Email address">
+                            </div>
+    
+                            <div class="input-group">
+                                <label for="number">Phone Number</label>
+                                <input type="text" id="number" name="number" placeholder="Contact Number">
+                            </div>
+
+                        </div>
+                        
+
+                        <div class="input-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What are you planning?">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" maxlength="1000" placeholder="How can we help?"></textarea>
+                        </div>
+
+                        <button type="submit">Send</button>
+
+                    </form>
                 </div>
-                <div class="input-group">
-                    <label for="number">Phone Number</label>
-                    <input type="text" id="number" name="number" placeholder="Contact Number">
-                </div>
+                
             </div>
-            
-
-            
-    
-
-            <label for="number">Phone Number</label>
-    
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="What are you planning?">
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="How can we help?"></textarea>
-    
-            <input type="submit" value="Send">
-        </form>
+        </div>
     </div>
+    
+
+
+
+
 
 
 
