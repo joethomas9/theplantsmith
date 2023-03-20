@@ -5,57 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/vmb1fpc.css">
     <title>The PlantSmith - Bespoke Garden Design and More</title>
     
 </head>
 
 <body>
-    <header class="site-header" style="z-index: 100;">
-    <div class = "nav-menu">
-        <a href="index.html" >
-            <div class="header-logo">
-                <h1 style="font-size: 20px">PlantSmith</h1>
-            </div>
-        </a>
-    </div>
-
-
-    <div class = "nav-menu">
-        <ul>
-            <li class="nav-link"><a href="index.html">Home</a></li>
-            <li class="nav-link"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-            <li class="nav-link"><a href="services.html" class="nav-link">Services</a></li>
-            <li class="nav-link"><a href="testimonials.html" class="nav-link">Testimonials</a></li>
-            <li><a href="contact.html"><button>Contact</button></a></li>
-        </ul>
-    </div>
-    </header>
-
-    <div class="hero-block" style="width: 100vw; height: 100vh; background-color: #BECCC0;">
-
-    <div class="wrapper" style="grid-template-columns: 2fr 1fr;">
-        <div class="wrapped-block" style="max-width: 2fr;">
-            <h1>
-                The PlantSmith Garden Design
-            </h1>
-            <p>
-                Bespoke and unique garden design services, including initial consultancy visit, design and plans, construction management, planting and garden styling.
-            </p>
-            <div class="wrapped-button" style="display: inline-block;">
-                <a href="portfolio.html">
-                    Portfolio<span>&#8594;</span>
-                </a>
-            </div>
+    <header class="site-header" style="z-index: 100; background-color: #beccc0;">
+        <div class = "nav-menu">
+            <a href="index.html" >
+                <div style="display: flex; align-items: center;">
+                    <img src="../images/new-logo-1.png" alt="" style="max-width: 15vw; max-height: 15vh">
+                    <h1 style="font-size: 20px;">ThePlantSmith</h1>
+                </div>
+            </a>
         </div>
-        <div class="wrapped-block" style="max-width: 1fr; display: inline-block; margin: 0;"> 
-            <img src="../images/tree-lawn-care.png" alt="">
-            <img src="../images/town-courtyard.png" id="top-img"alt="">
+    
+        <div class = "nav-menu">
+            <ul>
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-link"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-link"><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html"><button>Contact</button></a></li>
+            </ul>
         </div>
-            
-        </div>
-    </div>
+        </header>
     
 
+    <!-- Garden table background image with the white text on top -->
+    <div class="hero">
+        <div class="hero-content">
+            <div class="wrapper-hero" style="grid-template-columns: 2fr 1fr;">
+                <div class="wrapped-hero" style="max-width: 2fr;">
+                    <h1>The PlantSmith Garden Design</h1>
+                    <p>Bespoke and Unique garden design services, including initial consultancy visit, design and plans, construction management, planting and garden styling</p>
+                    <a href="portfolio.html" class="hero-button">
+                        Portfolio<span>&#8594;</span>
+                    </a>
+                </div>
+                <div class="wrapped-hero" style="max-width: 1fr;">
+                    <img src="../images/tree-lawn-care.png" alt="">
+                    <img src="../images/testimonials.png" id="overlay-image" alt="">
+                    <!-- need to add second image that overlaps the original -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us" style="grid-template-columns: 1fr 1fr;">
+    
+        <div class="wrapped-about" style="max-width: 1fr;">
+            <h1>Established in 2007, we have been creating stunning gardens for more than 16 years</h1>
+            <a href="portfolio.html" class="about-button" style="border-top: 2px solid #343c38">
+                Portfolio <span>&#8594;</span>
+            </a>
+            <a href="portfolio.html" class="about-button">
+                Contact <span>&#8594;</span>
+            </a>
+            <a href="portfolio.html" class="about-button">
+                Testimonials<span>&#8594;</span>
+            </a>
+        </div>
+        <div class="wrapped-about" style="max-width: 1fr;">
+            <p>
+                Wendy Smith started The Plantsmith in 2007 after deciding to transform a lifelong passion for gardening and garden design into a career change. 
+            </p>
+            <p>
+                After completing the RHS Diploma in Horticulture and Design at the renowned Writtle College in East Anglia, Wendy quickly began working with a network of experienced local landscapers and contractors. 
+            </p>
+            <p>
+                Her deep love for well structured design, and the beauty of plants and horticulture means that Wendy and her expert team approach each project with a depth of knowledge, professionalism and enthusiasm. 
+            </p>
+        </div>
+    </div>
+
+    <div class="recent-work">
+        <ul>
+            <li>
+                <h1>Recent Work</h1>
+            </li>
+            <li>
+                <img src="../images/garden-maintenance.png" alt="">
+                <h2>Lexden</h2>
+            </li>
+            <li>
+                <img src="../images/garden-maintenance.png" alt="">
+                <h2>Country garden pond</h2>
+            </li>
+            <li>
+                <img src="../images/garden-maintenance.png" alt="">
+                <h2>Les Bois</h2>
+            </li>
+        </ul>
+    </div>
+        
+    
+
+
 </body>
-</html>
