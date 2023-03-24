@@ -206,6 +206,31 @@ a:active { text-decoration: none; color: #343C37;}
         border-bottom: 2px solid #343C38;
     }
 
+    .block-contact-us img {
+        width: 70%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .site-footer {
+        padding-top: 10%;
+    }
+
+    .site-footer ul {
+        margin-top: 30px;
+        width: 50%;
+
+        text-align: left;
+    }
+
+    .site-footer li {
+        padding: 0 0 5px 10%;
+    }
+
+    .copyright-statement {
+        padding-top: 32px;
+        font-size: 12px;
+    }
 
 }
 
@@ -287,7 +312,7 @@ a:active { text-decoration: none; color: #343C37;}
     }
 
     .hero-wrapper {
-        padding-top: 15%;
+        padding-top: 10%;
         padding-left: 10%;
         height: 60%;
         position: relative;
@@ -346,7 +371,7 @@ a:active { text-decoration: none; color: #343C37;}
         display: grid;
         max-width: 100%; 
         grid-template-columns: 1fr 1fr; 
-        padding: 20% 10% 10% 0!important;
+        padding: 30% 10% 10% 5%!important;
         flex-direction: column;
         justify-content: center;
         text-align: left;
@@ -452,13 +477,52 @@ a:active { text-decoration: none; color: #343C37;}
         .accordion-desktop {
             width: 800px!important;
         }
+
+        .block-contact-us img {
+            max-height: 400px;
+            width: 1000px;
+            object-fit: cover;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            text-align: left;
+        }
+
+        .site-footer {
+            padding: 10%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .site-footer ul {
+            margin-top: 30px;
+            width: 50%;
+            border-top: 2px solid white;
+            border-bottom: 1px solid white;
+            display: flex;
+            justify-content: center;
+        }
+
+        .site-footer li {
+            padding: 20px;
+        }
+
+        .copyright-statement {
+            padding-top: 32px;
+        }
+        
 }
 
 .center-wrapper {
     display: flex;
     justify-content: center;
     text-align: left;
-    margin: 0 15% 0;
     flex-direction: column;
 }
 
@@ -524,4 +588,30 @@ a:active { text-decoration: none; color: #343C37;}
     transition-duration: 0.4s;
     border-bottom: 1px solid #343C38;
 }
+
+.block-contact-us {
+    background-color: #E3DDD7;
+    padding-top: 5%;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 200px;
+}
+
+
+footer {
+    background-color: #667A50;
+    color: white;
+}
+
+footer a:link { text-decoration: none; color: white; }
+        
+footer a:visited { text-decoration: none; color: white;}
+
+footer a:hover { text-decoration: none; color: white;}
+
+footer a:active { text-decoration: none; color: white;}
+
+
+
+
 
