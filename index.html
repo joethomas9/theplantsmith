@@ -20,7 +20,7 @@
                 </a>
             </div>
         
-            <div class = "nav-menu">
+            <div class = "nav-menu" id="desktop-content">
                 <ul>
                     <li class="nav-link"><a href="index.html">Home</a></li>
                     <li class="nav-link"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
@@ -33,20 +33,38 @@
             </header>
     </div>
 
+
     <!-- site hero -->
     <div class="hero">
 
         <div class="hero-wrapper" style="max-width: 100%;grid-template-columns: 3fr 2fr;">
-            <div class="wrapped-block" style="max-width: 3fr; padding-right: 5%;">
+            <div class="wrapped-block" style="max-width: 3fr; padding-right: 5%;" id="desktop-content">
                 <h1>The PlantSmith Garden Design</h1>
-                <p id="desktop-content" style="margin-top: 2%; max-width: 520px; font-size: 12px;">Want to rebuild your garden, but not sure where to start? Take a look at our portfolio for some inspiration!</p>
-                <div style="margin-top: 2%; max-width: 120px;" class="nav-button" id="desktop-content">
-                    <a href="portfolio" alt="">
-                        Portfolio
-                        <span>&#8594;</span>
-                    </a>
+                <p id="desktop-content" style="margin-top: 2%; max-width: 700px;">
+                    Ready to transform your garden, but not sure where to begin? Explore our services and let us help you get it done!
+                </p>
+                <div class="hero-nav">
+                    <ul>
+                        <li>
+                            <a href="services.html">Services
+                                <span>&#8594;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services.html">Contact
+                                <span>&#8594;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services.html">Testimonials
+                                <span>&#8594;</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+                
+                </div>
+            
             <div class="wrapped-block" style="max-width: 2fr;" id="desktop-content">
                 <div class="show-garden">
                     <p>Show garden</p>
@@ -61,14 +79,6 @@
         
         </div>
     </div>
-        
-    <!-- -->
-    <div class="center-content" id="mobile-content">
-        <div class="center-text" style="max-width: 88%;">
-            <p style="font-size: 24px;"><strong>Not sure where to start with rebuilding your garden?</strong></p>
-            <p style="padding-top: 2%;">Explore our services and let us help you get started!</p>
-        </div>
-    </div>
 
     <!-- mobile 'show garden' section, hidden on desktop -->
     <div class="show-garden" id="mobile-content">
@@ -79,189 +89,73 @@
         </div>
     </div>
 
-    <div class="wrapper" style="max-width: 100%; grid-template-columns: 1fr 1fr;">
-        <div class="wrapped-block" style="max-width: 1fr; padding: 0;">
-            <div class="center-content" style="margin-top: 20%;">
-                <div class="center-info" style="margin-top: 10%; border-top: 1px solid #343C38">
-                    <h2>What we offer</h2>
-                    <p style="margin-top: 2vh">
-                        Unique garden design services, including initial consultancy visit, design and plans, construction management, planting and garden styling
-                    </p>
-                </div>
-                <div class="center-nav">
-                    <ul>
-                        <li>
-                            <a href="portfolio">Portfolio
-                                <span>&#8594;</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact">Contact
-                                <span>&#8594;</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="testimonials">Testimonials
-                                <span>&#8594;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-        
+
+    <div class="wrapper-mobile wrapper-desktop" style="margin-top: 10%;">
+        <div class="wrapped-block-mobile wrapped-block-desktop">
+            <p style="font-size: 24px;"><strong>Ready to rebuild your garden, but feeling stuck for creative ideas?</strong></p>
+            <p style="padding-top: 2%;">Take a look at our portfolio for some inspiration!</p>
+            <div class="nav-button-desktop center-nav-mobile" style="border: 1px solid #343C38; margin-top: 5%;">
+                <a href="portfolio.html">Portfolio
+                    <span style="padding-left: 10px;">&#8594;</span>
+                </a>
             </div>
+
         </div>
-        <div class="wrapped-block" style="max-width: 1fr;" id="desktop-content">
-            <p>
-                Wendy Smith started The PlantSmith in 2007 after deciding to transform a lifelong passion for gardening and garden design into a career change.
+        <div class="wrapped-block-mobile wrapped-block-desktop">
+            <h2>About us</h2>
+            <p style="padding-top: 5%;">
+                Wendy Smith started The PlantSmith in 2007, transforming a lifelong passion into a career. 
             </p>
+            <br>
             <p>
-                After completing the RHS Diploma in Horticulture and Design at the renowned Writtle College in East Anglia, Wendy quickly began working with a network of experienced local landscapers and contractors.
+                Wendy's completion of the RHS Diploma in Horticulture and Design at Writtle College in East Anglia lead to The PlantSmith's inception, we immediately began work with a network of experienced local landscapers and contractors. 
             </p>
-            <p>
-                Her deep love for well structured design, and the beauty of plants and horticulture means that Wendy and her expert team approach each project with a depth of knowledge, professionalism and enthusiasm.
-            </p>
+            <br>
+            <p>Our expert team approach each project with a depth of knowledge, professionalism and enthusiasm, as to ensure we get your vision right every time.</p>
         </div>
 
     </div>
-    
 
-    
-    <div class="recent-work">
-        <p style="padding-left: 6%; padding-bottom: 5%"><strong>Recent Work</strong></p>
-        <div class="portfolio-containers">
-            <ul>
-                <li>
-                    <div class="portfolio-tile">
-                        <a href="portfolio.html"><img src="./images/delighted.png" alt=""></a>
+    <div class="recent-work-mobile recent-work-desktop">
+        <ul>
+            <li>
+                <h2 style="padding: 10% 0 2% 4%; white-space: nowrap;" class="rotate">Recent Work</h2>
+            </li>
+            <li>
+                <div class="portfolio-tile">
+                    <a href="portfolio.html"><img src="./images/garden-maintenance-old.png" alt="">
                         <div class="portfolio-name">
                             <p style="margin-top: 4%;"><strong>Lexden</strong></p>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="portfolio-tile">
-                        <a href="portfolio.html"><img src="./images/hero.png" alt=""></a>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="portfolio-tile">
+                    <a href="portfolio.html"><img src="./images/garden-maintenance-old.png" alt="">
                         <div class="portfolio-name">
                             <p style="margin-top: 4%;"><strong>Country pond garden</strong></p>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="portfolio-tile">
-                        <a href="portfolio.html"><img src="./images/garden-maintenance.png" alt=""></a>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="portfolio-tile">
+                    <a href="portfolio.html"><img src="./images/garden-maintenance-old.png" alt="">
                         <div class="portfolio-name">
                             <p style="margin-top: 4%;"><strong>Les Bois</strong></p>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </div>       
-    </div>
-
-    <div class="center-content">
-        <div class="center-info">
-            <h2>What we offer</h2>
-            <p style="margin-top: 4%">
-                Our services we have been perfecting over the last 16 years.
-            </p>
-        </div>
-        <div class="center-nav" style="padding-bottom: 4%;">
-            <ul>
-                <li>
-                    <a href="portfolio" style="background-color: #beccc0">Consultation
-                        <span>&#8594;</span>
                     </a>
-                </li>
-                <li>
-                    <a href="contact">Garden Design
-                        <span>&#8594;</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="testimonials">Garden Plans
-                        <span>&#8594;</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="testimonials">Planting
-                        <span>&#8594;</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="testimonials">Styling
-                        <span>&#8594;</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="center-content">
-        <div class="center-text">
-            <h2 style="">Book a consultation today.</h2>
-            <ul style="display: inline-flex;">
-                <li>
-                    <a href="">
-                        Book Now
-                        <span>&#8594;</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">Portfolio
-                        <span>&#8594;</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="center-content" style="background-color: #eaeee8; margin-top: -45%;">
-        <div class="footer-img">
-            <img src="./images/testimonials.png" alt="">
-        </div>
-    </div>
-
-    <footer>
-        <div class="center-content">
-            <img src="./images/new-logo-1.png" alt="" style="max-width: 30%; padding-top: 25%">
-            <h2 style="margin-top: -5%;">The PlantSmith</h2>
-            <p style="font-size: 12px;">Garden Design</p>
-            <div class="footer-links">
-                <ul>
-                    <li>
-                        <div class="center-content">
-                            <a href="">Home</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="center-content">
-                            <a href="">Portfolio</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="center-content">
-                            <a href="">Testimonials</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="center-content">
-                            <a href="">Services</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="center-content">
-                            <a href="">Contact</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p style="font-size: 8px;">
-                Copyright © 2023 The PlantSmith Garden Design. All Rights Reserved.
-            </p>
-            
-        </div>
-        <img src="./images/blink-dots.png" alt="" style="width: 10%; padding-left: 20%">
+                </div>
+            </li>
+        </ul>
         
-    </footer>
-</body>
+    </div>
 
-</html>
+    <div>
+        <h3 style="margin-top: 5%;">How we make your garden transformation easy</h3>
+        
+    </div>
+
+
+</body>
