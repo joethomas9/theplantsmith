@@ -97,7 +97,7 @@ a:active { text-decoration: none; color: #343C37;}
         color: #343C38;
         /* background-color: #E4DCD5; */
         background-color: #beccc0;
-        height: 30vh;
+        height: 40vh;
     }
 
     .hero p {
@@ -205,6 +205,8 @@ a:active { text-decoration: none; color: #343C37;}
         width: 90%;
         border-bottom: 2px solid #343C38;
     }
+
+
 }
 
 @media screen and (min-width: 769px) {
@@ -280,7 +282,7 @@ a:active { text-decoration: none; color: #343C37;}
     .hero {
         /* margin-top: -20%; */
         background-color: #beccc0;
-        height: 60%;
+        height: 700px;
         margin-bottom: -20%;
     }
 
@@ -352,7 +354,7 @@ a:active { text-decoration: none; color: #343C37;}
 
     .wrapped-block-desktop {
         max-width: 1fr;
-        padding: 0 10% 0 20%;
+        padding: 0 10% 0 10%;
         flex-direction: column;
     }
 
@@ -363,7 +365,7 @@ a:active { text-decoration: none; color: #343C37;}
     }
 
     .recent-work-desktop ul {
-        width: 100vw;
+        width: 100%;
         margin: 0 10% 0 5%;
         display: inline-flex;
         align-items: center;
@@ -386,7 +388,7 @@ a:active { text-decoration: none; color: #343C37;}
         border-bottom: 2px solid #343C38;
     }
 
-    .rotate {
+    .rotate-portfolio {
 
         /* Safari */
         -webkit-transform: rotate(-90deg);
@@ -422,7 +424,6 @@ a:active { text-decoration: none; color: #343C37;}
             position: relative;
             transition: all 0.3s ease;
             cursor: pointer;
-            padding: 10px;
           }
         
         .hero-nav a:hover {
@@ -442,8 +443,23 @@ a:active { text-decoration: none; color: #343C37;}
         .hero-nav a:hover span {
             transform: translateX(10px);
           }
+        
+        .center-wrapper-desktop {
+            align-items: center;
+            text-align: left;
+        }
 
-    
+        .accordion-desktop {
+            width: 800px!important;
+        }
+}
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 15% 0;
+    flex-direction: column;
 }
 
 .portfolio-tile {
@@ -455,5 +471,57 @@ a:active { text-decoration: none; color: #343C37;}
     max-width: 100%;
 }
 
+.accordion {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    overflow: hidden;
+    border-top: 1px solid #343C38;
+    width: 90%;
+}
 
+.accordion-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+}
+
+.accordion-label:hover {
+    background-color: #beccc0;
+    color: #343C38;
+    transition-duration: 0.4s;
+}
+
+.accordion-content {
+    display: none;
+    padding: 2%;
+    margin: 0;
+}
+
+.accordion-menu {
+    display: none;
+}
+
+.accordion-menu:checked ~ .accordion-content {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-menu:checked ~ .accordion-label span {
+    -webkit-transform: rotate(180deg);
+    transition-duration: 0.4s;
+
+}
+
+.accordion-menu:checked ~ .accordion-label {
+    background-color: #beccc0;
+    transition-duration: 0.4s;
+    border-bottom: 1px solid #343C38;
+}
 
